@@ -15,6 +15,7 @@
     "compile:linux-arm64": "TARGET=bun-linux-arm64 bun run compile",
     "compile:windows-x64": "TARGET=bun-windows-x64 bun run compile",
     "compile:darwin-x64": "TARGET=bun-darwin-x64 bun run compile",
+    "compile:darwin-arm64": "TARGET=bun-darwin-arm64 bun run compile",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
