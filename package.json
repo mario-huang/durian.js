@@ -1,14 +1,16 @@
 {
-  "name": "project-name",
+  "name": "nestjs-bun",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "mario-huang",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
+    "dev": "bun --watch run ./src/main.ts",
+    "start": "bun run ./src/main.ts",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "nest start",
+    
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
