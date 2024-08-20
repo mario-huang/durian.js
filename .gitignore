@@ -1,5 +1,5 @@
-*.bun-build
-main
+/*.bun-build
+/main-bun*
 
 # Logs
 logs
