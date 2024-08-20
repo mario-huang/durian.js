@@ -1,9 +1,8 @@
 {
   "name": "nestjs-bun",
   "version": "0.0.1",
-  "description": "",
+  "description": "Run NestJS with Bun",
   "author": "mario-huang",
-  "private": true,
   "license": "MIT",
   "scripts": {
     "build": "bun build ./src/main.ts --outdir ./dist --target bun --sourcemap --minify --packages external",
