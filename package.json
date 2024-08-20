@@ -7,13 +7,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "bun --watch run ./src/main.ts",
-    "start": "bun run ./src/main.ts",
-    "build": "nest build",
+    "build": "bun build ./src/main.ts --outdir ./dist",
+    "start": "bun run ./dist/main.js",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
-    "start:prod": "node dist/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -67,5 +65,6 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
