@@ -8,8 +8,9 @@
   "scripts": {
     "debug": "bun --inspect ./src/main.ts",
     "dev": "bun --watch run ./src/main.ts",
-    "build": "bun build ./src/main.ts --outdir ./dist --target bun --sourcemap=linked --packages external",
+    "build": "bun build ./src/main.ts --outdir ./dist --target bun --sourcemap --minify --packages external",
     "start": "bun run ./dist/main.js",
+    "compile": "bun build ./src/main.ts --target bun --sourcemap --minify",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
