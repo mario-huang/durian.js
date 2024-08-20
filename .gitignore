@@ -1,3 +1,6 @@
+*.bun-build
+main
+
 # Logs
 logs
 *.log
