@@ -8,8 +8,8 @@
   "scripts": {
     "build": "bun build ./src/main.ts --outdir ./dist --target bun --sourcemap --minify --packages external",
     "start": "bun run ./src/main.ts",
-    "start:debug": "bun --inspect ./src/main.ts",
-    "start:dev": "bun --watch run ./src/main.ts",
+    "start:debug": "bun run lint && bun --inspect ./src/main.ts",
+    "start:dev": "bun run lint && bun --watch run ./src/main.ts",
     "start:prod": "bun run ./dist/main.js",
     "compile": "TARGET=${TARGET:-bun} && bun build ./src/main.ts --target ${TARGET} --sourcemap --minify --compile --outfile main-${TARGET}",
     "compile:linux-x64": "TARGET=bun-linux-x64 bun run compile",
@@ -48,7 +48,6 @@
     "@nestjs/cli": "^10.0.0",
     "@nestjs/schematics": "^10.0.0",
     "@nestjs/testing": "^10.0.0",
-    "@types/bun": "^1.1.6",
     "@types/express": "^4.17.17",
     "@types/jest": "^29.5.2",
     "@types/node": "^20.3.1",
