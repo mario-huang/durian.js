@@ -8,8 +8,8 @@
   "scripts": {
     "build": "bun build ./src/main.ts --outdir ./dist --target bun --sourcemap",
     "start": "bun run ./src/main.ts",
-    "start:debug": "bun run lint && bun --inspect ./src/main.ts",
-    "start:dev": "bun run lint && bun --watch run ./src/main.ts",
+    "start:debug": "bun --inspect ./src/main.ts",
+    "start:dev": "bun --watch run ./src/main.ts",
     "start:prod": "bun run ./dist/main.js",
     "compile": "TARGET=${TARGET:-bun} && bun build ./src/main.ts --target ${TARGET} --sourcemap --compile --outfile main-${TARGET}",
     "compile:linux-x64": "TARGET=bun-linux-x64 bun run compile",
