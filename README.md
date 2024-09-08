@@ -1,3 +1,3 @@
-# nestjs-bun
+# durian.js
 
-bun create mario-huang/nestjs-bun
+bun create mario-huang/durian.js
