@@ -1,10 +1,16 @@
 {
-  "name": "nestjs-bun",
+  "name": "durian.js",
   "version": "0.0.1",
-  "description": "Run NestJS with Bun",
+  "description": "Run NestJS on Bun Fastly",
   "author": "mario-huang",
-  "private": true,
   "license": "MIT",
+  "keywords": [
+    "durian",
+    "durianjs",
+    "nest",
+    "nestjs",
+    "bun"
+  ],
   "scripts": {
     "build": "bun build ./src/main.ts --outdir ./dist --target bun --sourcemap",
     "start": "bun run ./src/main.ts",
