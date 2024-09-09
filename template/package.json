@@ -32,7 +32,7 @@
     "test:e2e": "durian test:e2e"
   },
   "dependencies": {
-    "durian.js": "0.0.3"
+    "durian.js": "0.0.4"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
