@@ -1,50 +1,52 @@
-import { $ } from 'bun';
+#!/usr/bin/env bun
+
+import { $ } from "bun";
 
 const command = process.argv[2];
 switch (command) {
-  case 'build':
+  case "build":
     await $`bun build ./src/main.ts --outdir ./dist --target bun --sourcemap`;
     break;
-  case 'start':
+  case "start":
     await $`bun run ./src/main.ts`;
     break;
-  case 'start:debug':
+  case "start:debug":
     await $`bun --inspect ./src/main.ts`;
     break;
-  case 'start:dev':
+  case "start:dev":
     await $`bun --watch run ./src/main.ts`;
     break;
-  case 'start:prod':
+  case "start:prod":
     await $`bun run ./dist/main.js`;
     break;
-  case 'compile':
+  case "compile":
     await $`bun build ./src/main.ts --sourcemap --compile --outfile main-bun`;
     break;
-  case 'compile:linux-x64':
+  case "compile:linux-x64":
     await $`bun build ./src/main.ts --sourcemap --compile --outfile main-bun-linux-x64`;
     break;
-  case 'compile:windows-x64':
+  case "compile:windows-x64":
     await $`bun build ./src/main.ts --sourcemap --compile --outfile main-bun-windows-x64`;
     break;
-  case 'compile:darwin-x64':
+  case "compile:darwin-x64":
     await $`bun build ./src/main.ts --sourcemap --compile --outfile main-bun-darwin-x64`;
     break;
-  case 'compile:darwin-arm64':
+  case "compile:darwin-arm64":
     await $`bun build ./src/main.ts --sourcemap --compile --outfile main-bun-darwin-arm64`;
     break;
-  case 'test':
+  case "test":
     await $`bun test`;
     break;
-  case 'test:watch':
+  case "test:watch":
     await $`bun test --watch`;
     break;
-  case 'test:cov':
+  case "test:cov":
     await $`bun test --coverage`;
     break;
-  case 'test:debug':
+  case "test:debug":
     await $`echo TODO`;
     break;
-  case 'test:e2e':
+  case "test:e2e":
     await $`echo TODO`;
     break;
   default:
