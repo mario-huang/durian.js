@@ -1,1 +1,3 @@
-template/
+*
+!cli.js
+!package.json
