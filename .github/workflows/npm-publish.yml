@@ -16,6 +16,6 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
-      - run: cd ./cli && npm publish
+      - run: cp README.md ./cli && cd ./cli && npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
