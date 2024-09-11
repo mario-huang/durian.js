@@ -31,4 +31,4 @@ After that, you can continue using NestJS as usual.
 
 ## Migrate from NestJS to durian.js
 This is the best part, you don't need to modify any source code!
-Simply replace your `package.jsom` and `tsconfig.json` with the ones from durian.js.
+Simply replace your `package.json` and `tsconfig.json` with the ones from durian.js.
