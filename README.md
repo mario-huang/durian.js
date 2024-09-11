@@ -6,6 +6,11 @@ I believe that [NestJS](https://github.com/nestjs/nest) is the most powerful and
 durian.js builds on the strengths of NestJS, running on [Bun](https://github.com/oven-sh/bun), and is designed with speed in mind — both in development and runtime performance.
 
 ## how fast is durian.js
+- Development Speed: durian.js can be up to 16 times faster than NestJS in development.
+
+- Runtime Performance: durian.js achieves up to 4 times the throughput, handling over 60,000 requests per second compared to NestJS’s 15,000.
+
+- Latency: durian.js significantly reduces response times. The average response time is as low as 0.0008 seconds, while NestJS averages around 0.0033 seconds—making durian.js up to 4 times faster in terms of latency.
 
 ![image](https://github.com/user-attachments/assets/61b1b40a-7ab5-45bd-ae8c-a5e13fce85a2)
 
