@@ -17,6 +17,14 @@ durian.js builds on the strengths of NestJS, running on [Bun](https://github.com
   <img src="https://github.com/user-attachments/assets/a5d0fb1a-f601-48e7-b390-5446796409c4" style="width: 49%; display: inline-block;" />
 </p>
 
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/61b1b40a-7ab5-45bd-ae8c-a5e13fce85a2" alt="Image 1" /></td>
+    <td><img src="https://github.com/user-attachments/assets/a5d0fb1a-f601-48e7-b390-5446796409c4" alt="Image 2" /></td>
+  </tr>
+</table>
+
+
 ![image](https://github.com/user-attachments/assets/61b1b40a-7ab5-45bd-ae8c-a5e13fce85a2)
 
 ![image](https://github.com/user-attachments/assets/a5d0fb1a-f601-48e7-b390-5446796409c4)
