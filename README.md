@@ -13,8 +13,8 @@ durian.js builds on the strengths of NestJS, running on [Bun](https://github.com
 - Latency: durian.js significantly reduces response times. The average response time is as low as 0.0008 seconds, while NestJS averages around 0.0033 seconds—making durian.js up to 4 times faster in terms of latency.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/61b1b40a-7ab5-45bd-ae8c-a5e13fce85a2" style="width: 49%;" />
-  <img src="https://github.com/user-attachments/assets/a5d0fb1a-f601-48e7-b390-5446796409c4" style="width: 49%;" />
+  <img src="https://github.com/user-attachments/assets/61b1b40a-7ab5-45bd-ae8c-a5e13fce85a2" style="width: 49%; display: inline-block;" />
+  <img src="https://github.com/user-attachments/assets/a5d0fb1a-f601-48e7-b390-5446796409c4" style="width: 49%; display: inline-block;" />
 </p>
 
 ![image](https://github.com/user-attachments/assets/61b1b40a-7ab5-45bd-ae8c-a5e13fce85a2)
