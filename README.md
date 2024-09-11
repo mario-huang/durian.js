@@ -9,8 +9,9 @@ durian.js builds on the strengths of NestJS, running on [Bun](https://github.com
 ## how fast is durian.js
 
 - Development Speed: durian.js can be up to 16 times faster than NestJS in development.
-  | build | start |
-  | --- | ----------- |
+
+  | build                                                                                     | start                                                                                     |
+  | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
   | ![image](https://github.com/user-attachments/assets/61b1b40a-7ab5-45bd-ae8c-a5e13fce85a2) | ![image](https://github.com/user-attachments/assets/a5d0fb1a-f601-48e7-b390-5446796409c4) |
 
 | test                                                                                      | test:cov                                                                                  |
