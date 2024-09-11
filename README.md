@@ -23,3 +23,8 @@ durian.js builds on the strengths of NestJS, running on [Bun](https://github.com
 | NestJS | durian.js |
 | --- | --- |
 | ![image](https://github.com/user-attachments/assets/56e3a836-0178-45c5-a900-df6f0664a21f) | ![image](https://github.com/user-attachments/assets/0cc7b5a9-ec6e-407f-ac4a-5a674bb7ad11) |
+
+## how to use durian.js
+It's simple, just
+
+This is the best part.
