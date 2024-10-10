@@ -32,6 +32,7 @@
     "test:e2e": "durian test:e2e"
   },
   "dependencies": {
+    "@nestjs/platform-fastify": "^10.4.4",
     "durian.js": "^1.0.0"
   },
   "devDependencies": {
