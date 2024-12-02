@@ -23,16 +23,19 @@ switch (command) {
     await $`bun build ./src/main.ts --sourcemap --compile --outfile main-bun`;
     break;
   case "compile:linux-x64":
-    await $`bun build ./src/main.ts --sourcemap --compile --outfile main-bun-linux-x64`;
+    await $`bun build ./src/main.ts --target bun-linux-x64 --sourcemap --compile --outfile main-bun-linux-x64`;
     break;
+  case "compile:linux-arm64":
+      await $`bun build ./src/main.ts --target bun-linux-arm64 --sourcemap --compile --outfile main-bun-linux-x64`;
+      break;
   case "compile:windows-x64":
-    await $`bun build ./src/main.ts --sourcemap --compile --outfile main-bun-windows-x64`;
+    await $`bun build ./src/main.ts --target bun-windows-x64 --sourcemap --compile --outfile main-bun-windows-x64`;
     break;
   case "compile:darwin-x64":
-    await $`bun build ./src/main.ts --sourcemap --compile --outfile main-bun-darwin-x64`;
+    await $`bun build ./src/main.ts --target bun-darwin-x64 --sourcemap --compile --outfile main-bun-darwin-x64`;
     break;
   case "compile:darwin-arm64":
-    await $`bun build ./src/main.ts --sourcemap --compile --outfile main-bun-darwin-arm64`;
+    await $`bun build ./src/main.ts --target bun-darwin-arm64 --sourcemap --compile --outfile main-bun-darwin-arm64`;
     break;
   case "test":
     await $`bun test`;
