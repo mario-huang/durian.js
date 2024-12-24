@@ -12,8 +12,8 @@
     "bun"
   ],
   "scripts": {
-    "pm2": "pm2-runtime start ecosystem.config.js",
     "build": "durian build",
+    "pm2": "bun run build && pm2-runtime start ecosystem.config.js",
     "start": "durian start",
     "start:debug": "durian start:debug",
     "start:dev": "durian start:dev",
