@@ -5,7 +5,7 @@ import { $ } from "bun";
 const command = process.argv[2];
 switch (command) {
   case "build":
-    await $`bun build ./src/main.ts --outdir ./dist --target bun --sourcemap`;
+    await $`bun build --entrypoints ./src/main.ts --outdir ./dist --target bun --sourcemap=linked --packages external`;
     break;
   case "start":
     await $`bun run ./src/main.ts`;
