@@ -1,6 +1,6 @@
 {
   "name": "durian.js",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Run NestJS on Bun Blazingly Fast",
   "author": "mario-huang",
   "repository": "https://github.com/mario-huang/durian.js",
