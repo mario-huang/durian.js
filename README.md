@@ -1,11 +1,11 @@
-# durian.js
+# Durian.js
 
-## What is durian.js?
+## What is Durian.js?
 I believe that [NestJS](https://github.com/nestjs/nest) is the most powerful and efficient API development framework on Node.js.
 
-durian.js builds on the strengths of NestJS, running on [Bun](https://github.com/oven-sh/bun), and is designed with speed in mind — both in development and runtime performance.
+Durian.js builds on the strengths of NestJS, running on [Bun](https://github.com/oven-sh/bun), and is designed with speed in mind — both in development and runtime performance.
 
-## How fast is durian.js?
+## Performance Benchmarks
 - Development Speed: durian.js can be up to 16 times faster than NestJS in development.
 
 | build | start |
@@ -22,13 +22,18 @@ durian.js builds on the strengths of NestJS, running on [Bun](https://github.com
 | --- | --- |
 | ![image](https://github.com/user-attachments/assets/56e3a836-0178-45c5-a900-df6f0664a21f) | ![image](https://github.com/user-attachments/assets/0cc7b5a9-ec6e-407f-ac4a-5a674bb7ad11) |
 
-## How to use durian.js
-It's simple, just run
+## Getting Started
+To create a new Durian.js project, run:
 ```bash
-bun create mario-huang/durian.js
+bun create mario-huang/durian.js my-project
 ```
-After that, you can continue using NestJS as usual.
+This will create a new directory called `my-project` with the latest Durian.js template. You can then continue using NestJS as usual with Bun's speed advantages.
 
-## Migrate from NestJS to durian.js
-This is the best part, you don't need to modify any source code!
-Simply replace your `package.json` and `tsconfig.json` with the ones from durian.js.
+## Migration Guide
+This is the best part - no source code modifications needed! To migrate an existing NestJS project:
+
+1. Backup your current `package.json` and `tsconfig.json`
+2. Replace them with the versions from Durian.js
+3. Run `bun install` to update dependencies
+
+You'll maintain full NestJS compatibility while gaining Bun's performance benefits.
