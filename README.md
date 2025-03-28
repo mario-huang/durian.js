@@ -1,4 +1,5 @@
 # Durian.js
+English · [日本語](./README_ja.md) · [中文](./README_zh.md)
 
 ## What is Durian.js?
 I believe that [NestJS](https://github.com/nestjs/nest) is the most powerful and efficient API development framework on Node.js.
