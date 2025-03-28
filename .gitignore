@@ -1,6 +1,6 @@
 /*.bun-build
 /main-bun*
-bun.lockb
+*.lock
 
 # Logs
 logs
