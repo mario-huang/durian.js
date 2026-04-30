@@ -1,3 +1,5 @@
+<img width="200" height="200" alt="durian" src="https://github.com/user-attachments/assets/30f00879-1705-426e-bc46-53b489f9f651" />
+
 # Durian.js
 
 ## 什么是 Durian.js？
