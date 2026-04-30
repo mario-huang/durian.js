@@ -1,3 +1,5 @@
+<img width="200" height="200" alt="durian" src="https://github.com/user-attachments/assets/30f00879-1705-426e-bc46-53b489f9f651" />
+
 # Durian.js
 English · [日本語](./README_ja.md) · [中文](./README_zh.md)
 
