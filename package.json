@@ -1,6 +1,6 @@
 {
   "name": "durian.js",
-  "version": "2.1.0",
+  "version": "2.1.2",
   "description": "Run NestJS on Bun Blazingly Fast",
   "author": "mario-huang",
   "license": "MIT",
@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "build": "durian build",
-    "pm2": "bun run build && pm2-runtime start ecosystem.config.js",
+    "pm2": "pm2-runtime start ecosystem.config.js",
     "start": "durian start",
     "start:debug": "durian start:debug",
     "start:dev": "durian start:dev",
@@ -53,7 +53,7 @@
     "eslint-plugin-prettier": "^5.5.5",
     "jest": "^30.3.0",
     "prettier": "^3.8.3",
-    "pm2": "^6.0.14"
+    "pm2": "^7.0.1"
   },
   "peerDependencies": {
     "typescript": "^6.0.3"

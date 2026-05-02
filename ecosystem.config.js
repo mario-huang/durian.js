@@ -1,9 +1,8 @@
 module.exports = {
-  apps: [
-    {
-      script: 'dist/main.js',
-      instances: "max",
-      exec_mode: 'cluster',
-    },
-  ],
+  name: "app",
+  script: "src/main.ts",
+  interpreter: "bun",
+  env: {
+    PATH: `${process.env.HOME}/.bun/bin:${process.env.PATH}`,
+  },
 };
