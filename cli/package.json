@@ -3,7 +3,10 @@
   "version": "2.1.0",
   "description": "Run NestJS on Bun Blazingly Fast",
   "author": "mario-huang",
-  "repository": "https://github.com/mario-huang/durian.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mario-huang/durian.js.git"
+  },
   "license": "MIT",
   "keywords": [
     "durian",
@@ -13,7 +16,7 @@
     "bun"
   ],
   "bin": {
-    "durian": "./cli.js"
+    "durian": "cli.js"
   },
   "dependencies": {
     "@nestjs/axios": "^4.0.1",
